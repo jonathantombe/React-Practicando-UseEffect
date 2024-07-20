@@ -13,10 +13,10 @@ const App = () => {
       <div>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/counter">Counter</Link>{" "}
+          <Link to="/counter">Click Counter</Link>{" "}
           <Link to="/timer">Timer</Link>
           <Link to="/login">Login</Link>
-          <Link to="/clock">Clock</Link>
+          <Link to="/clock">Digital Clock</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />

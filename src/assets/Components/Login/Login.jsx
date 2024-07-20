@@ -20,7 +20,7 @@ const Login = () => {
   }, [username, password]);
 
   return (
-    <div>
+    <div className="login">
       <h1>{message}</h1>
       <input
         type="text"
